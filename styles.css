@@ -1,0 +1,124 @@
+/* Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    background-image: linear-gradient(to right, rgba(196, 193, 193, .2), rgb(117, 115, 115)); 
+}
+
+header h1 {
+    
+}
+header h1 a {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-decoration: none;
+
+    
+    
+}
+header h1 a:hover {
+    background: #a2a1a1;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+    
+} 
+
+header nav {
+    margin: 7px 0px ;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: white
+}
+  
+header nav ul li a {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 2.5vh;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+
+}
+  
+header nav ul li a:hover {
+    background: #a2a1a1;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+    
+} 
+
+.soccer {
+    height: 25px;
+    width: 25x;
+    margin-top: 10px;
+  
+}
+
+body {
+    background-image: url("images/MLS_crest_logo_Mono_rev_black.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+
+
+
+/*Media Query*/
+/*980px media query*/
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+      /* add alongside your existing declarations */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    
+ 
+}
+  
+  @media screen and (max-width: 768px) {
+   
+  
+}
+  
+  
+  @media screen and (max-width: 575px) {
+  
+   
+}
