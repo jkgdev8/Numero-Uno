@@ -4,6 +4,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap; 
     background-image: linear-gradient(to right, rgba(196, 193, 193, .2), rgb(117, 115, 115)); 
+    border-radius: 20px
 }
 
 header h1 {
@@ -15,8 +16,7 @@ header h1 a {
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
     text-decoration: none;
-
-    
+       
     
 }
 header h1 a:hover {
