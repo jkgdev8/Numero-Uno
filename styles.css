@@ -75,13 +75,43 @@ body {
 }
 
 .hero {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
+   
     background-image: linear-gradient(to right, rgba(196, 193, 193, .2), rgb(117, 115, 115)); 
-    border-radius: 20px
+    border-radius: 20px;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 30;
+    text-align: center;
   
 }
+
+
+.scores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  color: white;
+  font-size: 30;
+  background-image: linear-gradient(to right, rgba(196, 193, 193, .2), rgb(117, 115, 115)); 
+  margin-top: 10px;
+  padding: 50px;
+  
+  
+
+}
+
+#btn {
+  color: white;
+  background-color:black;
+  border-radius: 50px;
+  font-size: 50px;
+}
+
+
+
+      
 
 
 
