@@ -11,14 +11,13 @@ var clickMe = function() {
     fetch(apiUrl).then(async res=>{
         const data = await res.json();
         //const reverse = data.matches.reverse();
-    
+        const goal = data.matches.score;
         const reverse = data.matches.length;
     
             for (var i = 0; i <= 5; i++) {  
-                console.log(data.matches[i]);
                 var date =  document.createElement("ul");
-                date.textContent = "Date: " + data.matches[i].date + " " + data.matches[i].team1 + " vs " 
-                + data.matches[i].team2 + "" + data.matches.score ;
+                date.textContent = "Date:   " + data.matches[i].date + " " + data.matches[i].team1 + " vs " 
+                + data.matches[i].team2 + " Score: " + "  " +  data.matches[i].score.ft;
                 scores.appendChild(date);
             }
 
@@ -33,7 +32,7 @@ var clickMe = function() {
 
 
 
-scores.addEventListener('click',clickMe);
+btn.addEventListener('click',clickMe);
 
 
 
