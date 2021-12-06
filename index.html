@@ -11,7 +11,7 @@
     <link href="hover.css" rel="stylesheet" media="all">
 
     <link rel="stylesheet" href="styles.css">
-    <title>Numero Uno MLS</title>
+    <title>Numero Uno Soccer</title>
 </head>
 <body>
     
@@ -22,6 +22,7 @@
       </h1>
       <nav>
         <ul>
+          
           <li>
             <a href="#scores">Scores</a>
           </li>
@@ -47,9 +48,38 @@
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magnam ipsam suscipit minus quas unde,</br>
      adipisci provident id similique reprehenderit. Corrupti illo officiis totam vel reprehenderit quaerat voluptatibus ex delectus?</br> 
   </div>
+ 
+  <input id="myInput" type="text"  onkeyup="myFunction()" placeholder="Search for clubs.." title="Type in a club"/>
+  <ul id="myUL">
+    <li><a href="https://atlutd.com/">Atlanta United</a></li>
+    <li><a href="https://austinfc.com/">Austin FC</a></li>
+  
+    <li><a href="https://charlottefootballclub.com/">Charlotte FC</a></li>
+    <li><a href="https://www.chicagofirefc.com/">Chicago Fire FC</a></li>
+  
+    <li><a href="https://www.fccincinnati.com/">FC Cincinnati</a></li>
+    <li><a href="https://www.coloradorapids.com/">Colorado Rapids</a></li>
+    <li><a href="https://www.columbuscrew.com/"> Columbus Crew </a></li>
+    <li><a href="https://www.dcunited.com/"> D.C. United    </a></li>
+    <li><a href="https://www.fcdallas.com/">  FC Dallas    </a></li>
+    <li><a href="https://www.houstondynamofc.com/">  Houston Dynamo FC    </a></li>
+    <li><a href="https://www.sportingkc.com/">     Sporting Kansas City    </a></li>
+    <li><a href="https://www.lagalaxy.com/"> LA Galaxy    </a></li>
+    <li><a href="#">             </a></li>
+    <li><a href="#">             </a></li>
+    <li><a href="#">             </a></li>
+    <li><a href="#">             </a></li>
+    <li><a href="#">             </a></li>
+    <li><a href="#">             </a></li>
+    
+  </ul>
+
 
   <div class="scores">
-    <button id="btn" class="hvr-pulse-grow ">Click Me For Scores!</button>
+    <button id="btn" class="hvr-pulse-grow " onclick="this.remove()">Click Me For Scores!</button>
+    
+    
+
   </div>
 
 
