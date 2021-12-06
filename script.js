@@ -14,8 +14,9 @@ var clickMe = function() {
         const goal = data.matches.score;
         const reverse = data.matches.length;
     
-            for (var i = 0; i <= 20; i++) {  
+            for (var i = 0; i <= 15; i++) {  
                 var date =  document.createElement("ul");
+                date.setAttribute = 
                 date.textContent = "Date:   " + data.matches[i].date + " " + data.matches[i].team1 + " vs " 
                 + data.matches[i].team2 + " Score: " + "  "  + data.matches[i].score.ft;
                 scores.appendChild(date);
@@ -27,10 +28,16 @@ var clickMe = function() {
     
 }
 
-function remove(me) {
-    document.getElementById(me).outerHTML = ""
-};
+function theFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  };
 
+  
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
@@ -46,7 +53,7 @@ function myFunction() {
             li[i].style.display = "none";
         }
     }
-}
+};
 
 
 
